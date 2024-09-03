@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import type { Metadata } from "next";
 import { Inter, IBM_Plex_Serif } from "next/font/google";
 import "./globals.css";
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
   description: "SBM is modern banging platform for everyone. ",
   icons: {
     icon: "/icons/logo.svg",
-  },  
+  },
 };
 
 export default function RootLayout({
